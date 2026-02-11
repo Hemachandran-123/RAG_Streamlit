@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment variables (IMPORTANT - protects your HF token!)
+.env
+
+# Vector Database (don't upload - too large)
+hf_vector_db/
+*.db
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/
+
+# Temp files
+*.tmp
+*.log
